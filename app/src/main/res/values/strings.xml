@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="editor_activity_title_new_product">Add Product</string>
+    <string name="editor_activity_title_edit_product">Edit Product</string>
+
+    <string name="activity_see_all_products">See all Products</string>
+
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+
+    <string name="product">Product</string>
+    <string name="supplier">Supplier</string>
+
+    <string name="empty_view_title_text">Inventory is empty</string>
+    <string name="empty_view_subtitle_text">Get started by adding a product</string>
+
+    <string name="name_product_error">Name Product is invalid</string>
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+    <string name="editor_delete_product_successful">Product deleted</string>
+
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+    <string name="delete_dialog_msg">Delete this product?</string>
+
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="editor_insert_product_failed">Error with saving product</string>
+    <string name="editor_insert_product_successful">Product saved</string>
+
+    <string name="editor_update_product_successful">Product updated</string>
+
+    <string name="editor_update_product_failed">Error with updating product</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <string name="buy_msg_confirm">Item has been sold</string>
+    <string name="no_product_in_stock">No available product in stock</string>
+    <string name="toast_out_of_stock_msg">Product is out of stock!</string>
+    <string name="error_msg_stock_update">Issue with upload value of quantity</string>
+
+    <string name="up_quantity">Quantity has increased</string>
+    <string name="down_quantity">Quantity has decreased</string>
+
+</resources>
