@@ -33,15 +33,21 @@ Inventory App for  Android Basics by Google Nanodegree Program
 
   - When there is no information to display in the database, the layout displays a TextView with instructions on how to populate the database (e.g. what should be entered in the field, which fields are required).
 
-**ListView Population**
+ ## ListView Population
 
   - The Main Activity displaying the list of current inventory contains a ListView that populates with the current products stored in the table.
+  
+  ![screenshot_20180503_150931](https://user-images.githubusercontent.com/35422422/39577574-62424b2e-4eea-11e8-81fe-333f0c02d5ce.png)
+  ![screenshot_20180503_151336](https://user-images.githubusercontent.com/35422422/39577579-66081c02-4eea-11e8-8459-ca0e888af176.png)
 
  ## Add Product Button
 
   - The Main Activity contains an Add Product Button prompts the user for product information and supplier information which are then properly stored in the table.
 
   - Before the information is added to the table, it must be validated -In particular, empty product information is not accepted. If user inputs invalid product information (name, price, quantity, supplier name, supplier phone number), instead of erroring out, the app includes logic to validate that no null values are accepted. If a null value is inputted, add a Toast that prompts the user to input the correct information before they can continue.
+  
+  ![screenshot_20180503_150943](https://user-images.githubusercontent.com/35422422/39577639-8bb6f842-4eea-11e8-8f62-794d32d2f408.png)
+
 
  ## Input Validation
 
@@ -51,9 +57,12 @@ Inventory App for  Android Basics by Google Nanodegree Program
 
   - In the Main Activity that displays a list of all available inventory, each List Item contains a Sale Button which reduces the available quantity for that particular product by one (include logic so that no negative quantities are displayed).
 
-**Detail View Intent**
+ ## Detail View Intent
 
   When a user clicks on a List Item from the Main Activity, it opens up the detail screen for the correct product.
+  
+  ![screenshot_20180503_150959](https://user-images.githubusercontent.com/35422422/39577655-978cc4a8-4eea-11e8-8e03-424ed478ad1a.png)
+
 
  ## Modify Quantity Buttons
 
@@ -66,10 +75,14 @@ Inventory App for  Android Basics by Google Nanodegree Program
  ## Order Button
 
   - The Detail Layout contains a button for the user to contact the supplier via an intent to a phone app using the Supplier Phone Number stored in the database.
+  
+  ![screenshot_20180503_151040](https://user-images.githubusercontent.com/35422422/39577711-b9503e62-4eea-11e8-8756-458f481e8112.png)
 
  ## Delete Button
 
   - In the Detail Layout, there is a Delete Button that prompts the user for confirmation and, if confirmed, deletes the product record entirely and sends the user back to the main activity.
+  
+  ![screenshot_20180503_151321](https://user-images.githubusercontent.com/35422422/39577739-d08efe38-4eea-11e8-960b-024c8208bb4d.png)
 
 
 
